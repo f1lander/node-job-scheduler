@@ -1,0 +1,37 @@
+{
+  "name": "chekku-agenda",
+  "version": "1.0.0",
+  "description": "this an jobs schedule for nodejs",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "node dist/app.js",
+    "prebuild": "tslint -c tslint.json -p tsconfig.json --fix",
+    "dev": "ts-node-dev --respawn --transpileOnly ./src/app.ts",
+    "debug": "tsnd --inspect --respawn src/app.ts",
+    "test": "mocha -r ts-node/register src/**/*.test.ts",
+    "build": "tsc"
+  },
+  "author": "Edax",
+  "license": "MIT",
+  "dependencies": {
+    "agenda": "^2.1.0",
+    "agendash": "^1.0.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.1"
+  },
+  "devDependencies": {
+    "@types/agenda": "^2.0.5",
+    "@types/body-parser": "^1.17.1",
+    "@types/chai": "^4.2.3",
+    "@types/express": "^4.17.1",
+    "@types/mocha": "^5.2.7",
+    "@types/mongoose": "^5.5.18",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "ts-node-dev": "^1.0.0-pre.43",
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.3"
+  }
+}
