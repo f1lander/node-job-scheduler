@@ -24,8 +24,9 @@ A step by step series of examples that tell you how to get a development env run
 Say what the step will be
 
 ```
-Clone this repo
-RENAME the .env to .env.example in the /backend folder
+Clone this repo and add the essentials env variables, lets create a .env file in the source and the following:
+PORT=3000
+MONGO_CONNECTION=mongodb://localhost:27017/agendadb
 ```
 ## Backend
 
