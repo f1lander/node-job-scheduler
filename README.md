@@ -35,6 +35,12 @@ yarn install
 npm run dev
 ```
 
+You will se a console message like this after a minute
+![alt text](https://user-images.githubusercontent.com/5679878/65638302-0ea70180-dfa3-11e9-9ecb-fdaee2751826.png)
+
+Inspect the agendash on localhost:3000/dash
+![alt text](https://user-images.githubusercontent.com/5679878/65638462-6b0a2100-dfa3-11e9-94be-fbddb4e05fdb.png)
+
 for debugging
 ```
 npm run debug
