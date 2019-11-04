@@ -1,6 +1,6 @@
 # Node Job Scheduler
 
-A job scjeduler to create and manage jobs in nodejs
+A job scheduler to create and manage jobs in nodejs
 
 ## Getting Started
 
@@ -36,7 +36,7 @@ yarn install
 npm run dev
 ```
 
-You will se a console message like this after a minute
+You will see a console message like this after a minute
 ![alt text](https://user-images.githubusercontent.com/5679878/65638302-0ea70180-dfa3-11e9-9ecb-fdaee2751826.png)
 
 Inspect the agendash on localhost:3000/dash
@@ -48,7 +48,7 @@ npm run debug
 Go to VS Code Debug and run the Typescrupt Server configurarion
 ```
 
-for prod
+for production build
 ```
 npm run build
 npm start
